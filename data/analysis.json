@@ -1,0 +1,793 @@
+{
+  "created": "2026-06-03",
+  "format": "48 teams, 12 groups of four, top two from each group plus eight best third-placed teams advance to the Round of 32.",
+  "caveat": "Pre-tournament estimates based on public anchors and calibrated estimates; not official FIFA probabilities, bookmaker odds, or a fully audited model.",
+  "groups": [
+    {
+      "Group": "A",
+      "Team": "Mexico",
+      "Win Group %": 0.478,
+      "Advance %": 0.88,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Host favorite",
+      "Rationale": "Opta anchor for group win; host edge; strongest floor in group"
+    },
+    {
+      "Group": "A",
+      "Team": "South Korea",
+      "Win Group %": 0.262,
+      "Advance %": 0.75,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Technical challenger",
+      "Rationale": "Calibrated estimate from team strength, tournament history, and matchup profile"
+    },
+    {
+      "Group": "A",
+      "Team": "Czechia",
+      "Win Group %": 0.17,
+      "Advance %": 0.63,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; hinges on South Korea match"
+    },
+    {
+      "Group": "A",
+      "Team": "South Africa",
+      "Win Group %": 0.09,
+      "Advance %": 0.48,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Low floor upset route",
+      "Rationale": "Calibrated estimate; needs one win and controlled goal difference"
+    },
+    {
+      "Group": "B",
+      "Team": "Switzerland",
+      "Win Group %": 0.4,
+      "Advance %": 0.82,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Stable favorite",
+      "Rationale": "Calibrated estimate; consistency and tactical stability"
+    },
+    {
+      "Group": "B",
+      "Team": "Canada",
+      "Win Group %": 0.34,
+      "Advance %": 0.79,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Host challenger",
+      "Rationale": "Calibrated estimate; host edge plus athletic profile"
+    },
+    {
+      "Group": "B",
+      "Team": "Qatar",
+      "Win Group %": 0.14,
+      "Advance %": 0.57,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; survival depends on Bosnia result"
+    },
+    {
+      "Group": "B",
+      "Team": "Bosnia and Herzegovina",
+      "Win Group %": 0.12,
+      "Advance %": 0.52,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Thin margin",
+      "Rationale": "Calibrated estimate; needs four points to feel safe"
+    },
+    {
+      "Group": "C",
+      "Team": "Brazil",
+      "Win Group %": 0.604,
+      "Advance %": 0.94,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Elite favorite",
+      "Rationale": "Opta anchor for group win; high ceiling but Morocco test"
+    },
+    {
+      "Group": "C",
+      "Team": "Morocco",
+      "Win Group %": 0.3,
+      "Advance %": 0.88,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Dark horse",
+      "Rationale": "Calibrated estimate; strong enough to pressure Brazil"
+    },
+    {
+      "Group": "C",
+      "Team": "Scotland",
+      "Win Group %": 0.066,
+      "Advance %": 0.54,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; must beat Haiti and protect GD"
+    },
+    {
+      "Group": "C",
+      "Team": "Haiti",
+      "Win Group %": 0.03,
+      "Advance %": 0.28,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Major upset needed",
+      "Rationale": "Calibrated estimate"
+    },
+    {
+      "Group": "D",
+      "Team": "USA",
+      "Win Group %": 0.328,
+      "Advance %": 0.84,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Host in balanced group",
+      "Rationale": "Opta anchor for group win; strongest home advantage but hard group"
+    },
+    {
+      "Group": "D",
+      "Team": "Türkiye",
+      "Win Group %": 0.28,
+      "Advance %": 0.7,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "High upside",
+      "Rationale": "Calibrated estimate; tactical upside and individual quality"
+    },
+    {
+      "Group": "D",
+      "Team": "Australia",
+      "Win Group %": 0.22,
+      "Advance %": 0.65,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; tournament hardened"
+    },
+    {
+      "Group": "D",
+      "Team": "Paraguay",
+      "Win Group %": 0.172,
+      "Advance %": 0.55,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Spoiler",
+      "Rationale": "Calibrated estimate; no weak team in group"
+    },
+    {
+      "Group": "E",
+      "Team": "Germany",
+      "Win Group %": 0.48,
+      "Advance %": 0.88,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Favorite with trust issue",
+      "Rationale": "Calibrated estimate; name strength reduced by recent tournament volatility"
+    },
+    {
+      "Group": "E",
+      "Team": "Ecuador",
+      "Win Group %": 0.26,
+      "Advance %": 0.75,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Strong second profile",
+      "Rationale": "Calibrated estimate; structured and difficult to play through"
+    },
+    {
+      "Group": "E",
+      "Team": "Ivory Coast",
+      "Win Group %": 0.19,
+      "Advance %": 0.66,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; physical upset route"
+    },
+    {
+      "Group": "E",
+      "Team": "Curaçao",
+      "Win Group %": 0.07,
+      "Advance %": 0.42,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Debutant chaos",
+      "Rationale": "Calibrated estimate; needs set-piece or low-event upset"
+    },
+    {
+      "Group": "F",
+      "Team": "Netherlands",
+      "Win Group %": 0.48,
+      "Advance %": 0.89,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Best squad in awkward group",
+      "Rationale": "Calibrated estimate; Japan can disrupt"
+    },
+    {
+      "Group": "F",
+      "Team": "Japan",
+      "Win Group %": 0.27,
+      "Advance %": 0.75,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Clean upset pick",
+      "Rationale": "Calibrated estimate; technical structure and pressing"
+    },
+    {
+      "Group": "F",
+      "Team": "Sweden",
+      "Win Group %": 0.14,
+      "Advance %": 0.56,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; can make games low margin"
+    },
+    {
+      "Group": "F",
+      "Team": "Tunisia",
+      "Win Group %": 0.11,
+      "Advance %": 0.51,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Third place edge case",
+      "Rationale": "Calibrated estimate; compact defensive route"
+    },
+    {
+      "Group": "G",
+      "Team": "Belgium",
+      "Win Group %": 0.45,
+      "Advance %": 0.88,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Favorite, fading aura",
+      "Rationale": "Calibrated estimate; weaker group helps"
+    },
+    {
+      "Group": "G",
+      "Team": "Iran",
+      "Win Group %": 0.27,
+      "Advance %": 0.75,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Underrated structure",
+      "Rationale": "Calibrated estimate; hard to break down"
+    },
+    {
+      "Group": "G",
+      "Team": "Egypt",
+      "Win Group %": 0.21,
+      "Advance %": 0.68,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Salah factor",
+      "Rationale": "Calibrated estimate; depends on team balance around star power"
+    },
+    {
+      "Group": "G",
+      "Team": "New Zealand",
+      "Win Group %": 0.07,
+      "Advance %": 0.39,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Long shot",
+      "Rationale": "Calibrated estimate; needs low scoring upset"
+    },
+    {
+      "Group": "H",
+      "Team": "Spain",
+      "Win Group %": 0.753,
+      "Advance %": 0.98,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Best group favorite",
+      "Rationale": "Opta anchor; highest group win profile among favorites"
+    },
+    {
+      "Group": "H",
+      "Team": "Uruguay",
+      "Win Group %": 0.177,
+      "Advance %": 0.78,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "High quality runner up",
+      "Rationale": "Calibrated estimate; can challenge Spain but second is base case"
+    },
+    {
+      "Group": "H",
+      "Team": "Saudi Arabia",
+      "Win Group %": 0.04,
+      "Advance %": 0.44,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place route",
+      "Rationale": "Calibrated estimate; Cape Verde match is decisive"
+    },
+    {
+      "Group": "H",
+      "Team": "Cape Verde",
+      "Win Group %": 0.03,
+      "Advance %": 0.4,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Debutant upside",
+      "Rationale": "Calibrated estimate; difficult draw"
+    },
+    {
+      "Group": "I",
+      "Team": "France",
+      "Win Group %": 0.603,
+      "Advance %": 0.94,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Elite favorite in hard group",
+      "Rationale": "Opta anchor; hardest elite group"
+    },
+    {
+      "Group": "I",
+      "Team": "Senegal",
+      "Win Group %": 0.18,
+      "Advance %": 0.74,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Tournament ready",
+      "Rationale": "Calibrated estimate; physical profile and big match toughness"
+    },
+    {
+      "Group": "I",
+      "Team": "Norway",
+      "Win Group %": 0.167,
+      "Advance %": 0.68,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Haaland volatility",
+      "Rationale": "Calibrated estimate; elite attack can swing any match"
+    },
+    {
+      "Group": "I",
+      "Team": "Iraq",
+      "Win Group %": 0.05,
+      "Advance %": 0.38,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Upset required",
+      "Rationale": "Calibrated estimate"
+    },
+    {
+      "Group": "J",
+      "Team": "Argentina",
+      "Win Group %": 0.73,
+      "Advance %": 0.96,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Defending champion path",
+      "Rationale": "Opta anchor; favorable group"
+    },
+    {
+      "Group": "J",
+      "Team": "Austria",
+      "Win Group %": 0.13,
+      "Advance %": 0.67,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Structured challenger",
+      "Rationale": "Calibrated estimate; pressing and organization"
+    },
+    {
+      "Group": "J",
+      "Team": "Algeria",
+      "Win Group %": 0.1,
+      "Advance %": 0.62,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; Jordan result key"
+    },
+    {
+      "Group": "J",
+      "Team": "Jordan",
+      "Win Group %": 0.04,
+      "Advance %": 0.39,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Debutant route",
+      "Rationale": "Calibrated estimate; needs one fearless upset"
+    },
+    {
+      "Group": "K",
+      "Team": "Portugal",
+      "Win Group %": 0.55,
+      "Advance %": 0.92,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Elite squad",
+      "Rationale": "Calibrated estimate; Colombia match can decide first"
+    },
+    {
+      "Group": "K",
+      "Team": "Colombia",
+      "Win Group %": 0.28,
+      "Advance %": 0.8,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Dangerous non-favorite",
+      "Rationale": "Calibrated estimate; strong CONMEBOL profile"
+    },
+    {
+      "Group": "K",
+      "Team": "DR Congo",
+      "Win Group %": 0.09,
+      "Advance %": 0.49,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place route",
+      "Rationale": "Calibrated estimate; physical upset route"
+    },
+    {
+      "Group": "K",
+      "Team": "Uzbekistan",
+      "Win Group %": 0.08,
+      "Advance %": 0.47,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Debutant but live",
+      "Rationale": "Calibrated estimate; direct third-place duel with DR Congo"
+    },
+    {
+      "Group": "L",
+      "Team": "England",
+      "Win Group %": 0.679,
+      "Advance %": 0.95,
+      "Predicted Finish": "1st",
+      "Tier / Role": "Strong favorite",
+      "Rationale": "Opta anchor; clean contender path"
+    },
+    {
+      "Group": "L",
+      "Team": "Croatia",
+      "Win Group %": 0.24,
+      "Advance %": 0.82,
+      "Predicted Finish": "2nd",
+      "Tier / Role": "Tournament muscle memory",
+      "Rationale": "Calibrated estimate; still strong second profile"
+    },
+    {
+      "Group": "L",
+      "Team": "Panama",
+      "Win Group %": 0.061,
+      "Advance %": 0.56,
+      "Predicted Finish": "3rd",
+      "Tier / Role": "Third place candidate",
+      "Rationale": "Calibrated estimate; Ghana match decisive"
+    },
+    {
+      "Group": "L",
+      "Team": "Ghana",
+      "Win Group %": 0.02,
+      "Advance %": 0.34,
+      "Predicted Finish": "4th",
+      "Tier / Role": "Low floor chaos",
+      "Rationale": "Calibrated estimate; needs good version of chaos"
+    }
+  ],
+  "groupSummary": [
+    {
+      "Group": "A",
+      "Predicted Winner": "Mexico",
+      "Runner-up": "South Korea",
+      "Third Candidate": "Czechia",
+      "Difficulty": "Medium",
+      "Strategic Read": "Host edge gives Mexico control; South Korea vs Czechia decides route"
+    },
+    {
+      "Group": "B",
+      "Predicted Winner": "Switzerland",
+      "Runner-up": "Canada",
+      "Third Candidate": "Qatar",
+      "Difficulty": "Medium",
+      "Strategic Read": "Balanced but not elite; Switzerland stability versus Canada host edge"
+    },
+    {
+      "Group": "C",
+      "Predicted Winner": "Brazil",
+      "Runner-up": "Morocco",
+      "Third Candidate": "Scotland",
+      "Difficulty": "Medium high",
+      "Strategic Read": "Brazil vs Morocco defines group control and bracket route"
+    },
+    {
+      "Group": "D",
+      "Predicted Winner": "USA",
+      "Runner-up": "Türkiye",
+      "Third Candidate": "Australia",
+      "Difficulty": "Very high",
+      "Strategic Read": "No soft team; likely three qualifier group"
+    },
+    {
+      "Group": "E",
+      "Predicted Winner": "Germany",
+      "Runner-up": "Ecuador",
+      "Third Candidate": "Ivory Coast",
+      "Difficulty": "High",
+      "Strategic Read": "Germany should advance but Ecuador and Ivory Coast make it uncomfortable"
+    },
+    {
+      "Group": "F",
+      "Predicted Winner": "Netherlands",
+      "Runner-up": "Japan",
+      "Third Candidate": "Sweden",
+      "Difficulty": "Very high",
+      "Strategic Read": "Netherlands favorite, but Japan can win this tactically"
+    },
+    {
+      "Group": "G",
+      "Predicted Winner": "Belgium",
+      "Runner-up": "Iran",
+      "Third Candidate": "Egypt",
+      "Difficulty": "Medium high",
+      "Strategic Read": "Belgium should advance; Iran and Egypt fight for second"
+    },
+    {
+      "Group": "H",
+      "Predicted Winner": "Spain",
+      "Runner-up": "Uruguay",
+      "Third Candidate": "Saudi Arabia",
+      "Difficulty": "Medium",
+      "Strategic Read": "Spain’s cleanest favorite path; Uruguay clear second"
+    },
+    {
+      "Group": "I",
+      "Predicted Winner": "France",
+      "Runner-up": "Senegal",
+      "Third Candidate": "Norway",
+      "Difficulty": "Very high",
+      "Strategic Read": "Hardest elite favorite group; Senegal vs Norway is decisive"
+    },
+    {
+      "Group": "J",
+      "Predicted Winner": "Argentina",
+      "Runner-up": "Austria",
+      "Third Candidate": "Algeria",
+      "Difficulty": "Medium",
+      "Strategic Read": "Defending champion has a favorable path; Austria is the main disruptor"
+    },
+    {
+      "Group": "K",
+      "Predicted Winner": "Portugal",
+      "Runner-up": "Colombia",
+      "Third Candidate": "DR Congo",
+      "Difficulty": "High",
+      "Strategic Read": "Portugal favorite, Colombia can steal first; third place is messy"
+    },
+    {
+      "Group": "L",
+      "Predicted Winner": "England",
+      "Runner-up": "Croatia",
+      "Third Candidate": "Panama",
+      "Difficulty": "Medium",
+      "Strategic Read": "England clean path, Croatia strong second, Panama spoiler"
+    }
+  ],
+  "thirdPlaceWatch": [
+    {
+      "Priority": 1,
+      "Team": "Australia",
+      "Group": "D",
+      "Advance %": 0.65,
+      "Why they are live": "Tournament hardened; can reach four points in a balanced group"
+    },
+    {
+      "Priority": 2,
+      "Team": "Algeria",
+      "Group": "J",
+      "Advance %": 0.62,
+      "Why they are live": "Clear path if they beat Jordan and manage Austria"
+    },
+    {
+      "Priority": 3,
+      "Team": "Ivory Coast",
+      "Group": "E",
+      "Advance %": 0.66,
+      "Why they are live": "Physical profile gives them upset potential against Ecuador or Germany"
+    },
+    {
+      "Priority": 4,
+      "Team": "Egypt",
+      "Group": "G",
+      "Advance %": 0.68,
+      "Why they are live": "Salah factor plus manageable group composition"
+    },
+    {
+      "Priority": 5,
+      "Team": "Sweden",
+      "Group": "F",
+      "Advance %": 0.56,
+      "Why they are live": "Can survive through compact low-margin games"
+    },
+    {
+      "Priority": 6,
+      "Team": "Czechia",
+      "Group": "A",
+      "Advance %": 0.63,
+      "Why they are live": "Realistic route through South Africa win and South Korea result"
+    },
+    {
+      "Priority": 7,
+      "Team": "Panama",
+      "Group": "L",
+      "Advance %": 0.56,
+      "Why they are live": "Ghana match decides survival route"
+    },
+    {
+      "Priority": 8,
+      "Team": "Qatar",
+      "Group": "B",
+      "Advance %": 0.57,
+      "Why they are live": "Needs result against Bosnia or Canada"
+    },
+    {
+      "Priority": 9,
+      "Team": "Norway",
+      "Group": "I",
+      "Advance %": 0.68,
+      "Why they are live": "Higher talent than some above, but harder group makes third-place math volatile"
+    },
+    {
+      "Priority": 10,
+      "Team": "Tunisia",
+      "Group": "F",
+      "Advance %": 0.51,
+      "Why they are live": "Defensive route, but group difficulty hurts"
+    },
+    {
+      "Priority": 11,
+      "Team": "DR Congo",
+      "Group": "K",
+      "Advance %": 0.49,
+      "Why they are live": "Must win the Uzbekistan match"
+    },
+    {
+      "Priority": 12,
+      "Team": "South Africa",
+      "Group": "A",
+      "Advance %": 0.48,
+      "Why they are live": "Needs one win and protected goal difference"
+    }
+  ],
+  "contenders": [
+    {
+      "Team": "Spain",
+      "Group": "H",
+      "Win Group %": 0.753,
+      "Advance %": 0.98,
+      "Reach QF %": 0.521,
+      "Title %": 0.161,
+      "Tournament Read": "Cleanest group path; best blend of control and upside",
+      "Probability Source": "Public Opta title and QF anchor"
+    },
+    {
+      "Team": "France",
+      "Group": "I",
+      "Win Group %": 0.603,
+      "Advance %": 0.94,
+      "Reach QF %": 0.479,
+      "Title %": 0.13,
+      "Tournament Read": "Harder group but strongest knockout danger profile",
+      "Probability Source": "Public Opta title and QF anchor"
+    },
+    {
+      "Team": "England",
+      "Group": "L",
+      "Win Group %": 0.679,
+      "Advance %": 0.95,
+      "Reach QF %": 0.477,
+      "Title %": 0.112,
+      "Tournament Read": "Clean group route; squad depth gives high floor",
+      "Probability Source": "Public Opta title and QF anchor"
+    },
+    {
+      "Team": "Argentina",
+      "Group": "J",
+      "Win Group %": 0.73,
+      "Advance %": 0.96,
+      "Reach QF %": 0.44,
+      "Title %": 0.104,
+      "Tournament Read": "Defending champion with favorable group but repeat is hard",
+      "Probability Source": "Opta title anchor, QF estimated"
+    },
+    {
+      "Team": "Portugal",
+      "Group": "K",
+      "Win Group %": 0.55,
+      "Advance %": 0.92,
+      "Reach QF %": 0.36,
+      "Title %": 0.07,
+      "Tournament Read": "Elite squad; Colombia match matters for route",
+      "Probability Source": "Opta title anchor, QF estimated"
+    },
+    {
+      "Team": "Brazil",
+      "Group": "C",
+      "Win Group %": 0.604,
+      "Advance %": 0.94,
+      "Reach QF %": 0.36,
+      "Title %": 0.066,
+      "Tournament Read": "Morocco test early; highest chaos upside",
+      "Probability Source": "Opta title and group anchor, QF estimated"
+    },
+    {
+      "Team": "Germany",
+      "Group": "E",
+      "Win Group %": 0.48,
+      "Advance %": 0.88,
+      "Reach QF %": 0.31,
+      "Title %": 0.051,
+      "Tournament Read": "Name strength, but trust gap from recent tournaments",
+      "Probability Source": "Opta title anchor, QF estimated"
+    },
+    {
+      "Team": "Netherlands",
+      "Group": "F",
+      "Win Group %": 0.48,
+      "Advance %": 0.89,
+      "Reach QF %": 0.27,
+      "Title %": 0.036,
+      "Tournament Read": "Strong but tricky group; Japan can damage route",
+      "Probability Source": "Opta title anchor, QF estimated"
+    },
+    {
+      "Team": "Colombia",
+      "Group": "K",
+      "Win Group %": 0.28,
+      "Advance %": 0.8,
+      "Reach QF %": 0.18,
+      "Title %": 0.021,
+      "Tournament Read": "Best outsider profile in Group K",
+      "Probability Source": "Opta title anchor, QF estimated"
+    },
+    {
+      "Team": "Morocco",
+      "Group": "C",
+      "Win Group %": 0.3,
+      "Advance %": 0.88,
+      "Reach QF %": 0.18,
+      "Title %": 0.019,
+      "Tournament Read": "Highest-rated African contender profile",
+      "Probability Source": "Opta title anchor, QF estimated"
+    }
+  ],
+  "method": [
+    {
+      "Step": "1. Public anchor",
+      "Explanation": "Use published Opta Supercomputer probabilities where available: title probability, quarter-final rate, and some group winner probabilities."
+    },
+    {
+      "Step": "2. Team strength score",
+      "Explanation": "Estimate base strength from ranking/profile, squad depth, tactical stability, recent tournament behavior, and confederation context."
+    },
+    {
+      "Step": "3. Matchup adjustment",
+      "Explanation": "Adjust for specific group dynamics: host edge, style clashes, low-block risk, transition threat, and matchup volatility."
+    },
+    {
+      "Step": "4. Mini-league logic",
+      "Explanation": "Translate match probabilities into group finish probabilities: first, second, third, fourth."
+    },
+    {
+      "Step": "5. 2026 format adjustment",
+      "Explanation": "Increase advance probability for credible third-place teams because eight of twelve third-placed teams qualify."
+    },
+    {
+      "Step": "6. Manual calibration",
+      "Explanation": "Round into readable bands and reduce false precision where uncertainty is high."
+    },
+    {
+      "Step": "Probability confidence",
+      "Explanation": "Notes"
+    },
+    {
+      "Step": "Medium high",
+      "Explanation": "Big favorite group-win estimates where Opta anchor exists"
+    },
+    {
+      "Step": "Medium",
+      "Explanation": "General advance probabilities for favorites and clear second-place teams"
+    },
+    {
+      "Step": "Medium low",
+      "Explanation": "Third-place survival because one goal can swing cross-group ranking"
+    },
+    {
+      "Step": "Low to medium",
+      "Explanation": "Quarter-final path estimates where public model did not publish the exact number"
+    }
+  ],
+  "sources": [
+    {
+      "Source": "Opta Analyst",
+      "Used for": "Pre-tournament model; 10,000 simulations; published group win and title probability anchors for major contenders",
+      "URL": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+    },
+    {
+      "Source": "FIFA",
+      "Used for": "Tournament format and group qualification rules: top two in each group plus eight best third placed teams reach Round of 32",
+      "URL": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/groups-how-teams-qualify-tie-breakers"
+    },
+    {
+      "Source": "FIFA",
+      "Used for": "Group A focus page used as example of official group composition pages",
+      "URL": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/group-a-focus-teams-fixtures-standings"
+    },
+    {
+      "Source": "Reuters",
+      "Used for": "Final squads article used as context for squad profile and notable inclusions or omissions",
+      "URL": "https://www.reuters.com/sports/soccer/world-cup-2026-list-26-man-squads-finals-2026-06-02/"
+    }
+  ]
+}

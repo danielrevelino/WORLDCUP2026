@@ -1,0 +1,47 @@
+{
+  "source": "sample",
+  "fetchedAt": "2026-06-03T10:00:00.000Z",
+  "message": "Local sample data for dashboard wiring only.",
+  "matches": [
+    {
+      "group": "A",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "SCHEDULED",
+      "utcDate": "2026-06-11T19:00:00Z",
+      "venue": "Mexico City"
+    },
+    {
+      "group": "A",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czechia",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "SCHEDULED",
+      "utcDate": "2026-06-12T01:00:00Z",
+      "venue": "TBD"
+    },
+    {
+      "group": "D",
+      "homeTeam": "USA",
+      "awayTeam": "Paraguay",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "SCHEDULED",
+      "utcDate": "2026-06-12T22:00:00Z",
+      "venue": "TBD"
+    },
+    {
+      "group": "F",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "SCHEDULED",
+      "utcDate": "2026-06-14T19:00:00Z",
+      "venue": "TBD"
+    }
+  ]
+}
