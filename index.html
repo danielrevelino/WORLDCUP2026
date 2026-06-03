@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Cup 2026 Probability Dashboard</title>
+    <meta
+      name="description"
+      content="Interactive World Cup 2026 group probability dashboard with optional live score updates."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__media" aria-hidden="true"></div>
+      <nav class="topbar" aria-label="Dashboard navigation">
+        <a href="#groups">Groups</a>
+        <a href="#live">Live</a>
+        <a href="#contenders">Contenders</a>
+        <a href="#third-place">Third place</a>
+      </nav>
+      <section class="hero__content">
+        <p class="eyebrow">Created 2026-06-03</p>
+        <h1>World Cup 2026 Probability Dashboard</h1>
+        <p>
+          Pre-tournament group forecasts, contender paths, third-place pressure,
+          and a live-result layer ready for Vercel.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#groups">Explore groups</a>
+          <a class="button" href="#live">Check live layer</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-label="Dashboard summary">
+        <div class="summary-item">
+          <span class="summary-value" id="team-count">48</span>
+          <span class="summary-label">Teams</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-value">12</span>
+          <span class="summary-label">Groups</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-value">8</span>
+          <span class="summary-label">Third-place spots</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-value" id="leader-title">Spain</span>
+          <span class="summary-label">Title leader</span>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Dashboard controls">
+        <label>
+          <span>Group</span>
+          <select id="group-filter"></select>
+        </label>
+        <label>
+          <span>Search team</span>
+          <input id="team-search" type="search" placeholder="Spain, Japan, USA..." />
+        </label>
+        <label>
+          <span>Sort teams by</span>
+          <select id="sort-mode">
+            <option value="advance">Advance probability</option>
+            <option value="win">Win group probability</option>
+            <option value="live">Live points</option>
+            <option value="finish">Predicted finish</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="live" class="live-band" aria-labelledby="live-title">
+        <div>
+          <p class="eyebrow">Live layer</p>
+          <h2 id="live-title">Scores and current group tables</h2>
+        </div>
+        <div class="live-status" id="live-status">Loading score feed...</div>
+        <div class="match-strip" id="match-strip" aria-live="polite"></div>
+      </section>
+
+      <section id="groups" class="section" aria-labelledby="groups-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Group-by-group</p>
+            <h2 id="groups-title">Forecast versus tournament state</h2>
+          </div>
+          <p>
+            Forecast probabilities stay unchanged; live points update from match
+            results when the feed is connected.
+          </p>
+        </div>
+        <div class="group-grid" id="group-grid"></div>
+      </section>
+
+      <section id="contenders" class="section split" aria-labelledby="contenders-title">
+        <div>
+          <p class="eyebrow">Contenders</p>
+          <h2 id="contenders-title">Title paths</h2>
+          <p>
+            The model’s title view is anchored by public probabilities where
+            available, then calibrated for group context and route difficulty.
+          </p>
+        </div>
+        <div class="contender-list" id="contender-list"></div>
+      </section>
+
+      <section id="third-place" class="section" aria-labelledby="third-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Pressure watch</p>
+            <h2 id="third-title">Best third-place candidates</h2>
+          </div>
+          <p>
+            The 2026 format rewards four-point teams and controlled goal
+            difference in difficult groups.
+          </p>
+        </div>
+        <div class="third-grid" id="third-grid"></div>
+      </section>
+
+      <section class="section sources" aria-labelledby="sources-title">
+        <div>
+          <p class="eyebrow">Model notes</p>
+          <h2 id="sources-title">Method and sources</h2>
+        </div>
+        <div class="method-list" id="method-list"></div>
+        <div class="source-list" id="source-list"></div>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
