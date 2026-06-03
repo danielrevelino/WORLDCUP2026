@@ -1,7 +1,7 @@
 const DEFAULT_COMPETITION = "WC";
 const DEFAULT_SEASON = "2026";
 
-module.exports = async function handler(request, response) {
+export default async function handler(request, response) {
   response.setHeader("Access-Control-Allow-Origin", "*");
   response.setHeader("Cache-Control", "s-maxage=30, stale-while-revalidate=60");
 
@@ -32,7 +32,7 @@ module.exports = async function handler(request, response) {
       matches: [],
     });
   }
-};
+}
 
 async function fetchCustomProvider() {
   const headers = {};

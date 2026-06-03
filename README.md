@@ -22,9 +22,17 @@ Then open `http://localhost:4173`.
 
 The local preview uses `data/live-results.sample.json` because the Vercel API route is only available when served by Vercel or Vercel CLI.
 
+To test the Vercel Function locally, use:
+
+```bash
+vercel dev
+```
+
 ## Vercel deployment
 
 Deploy the folder directly to Vercel. There is no build step.
+
+Recommended deployment method: import a GitHub repository from Vercel. If using manual upload, upload the contents of this folder as the project root, not a parent folder that contains this folder.
 
 For football-data.org:
 
